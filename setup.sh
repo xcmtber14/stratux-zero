@@ -29,7 +29,7 @@ sudo apt-get install -y fftw3-dev
 sudo apt-get install -y libtool
 sudo apt-get install -y automake
 sudo apt-get install -y pkg-config
-sudo apt-get install -y libjpeg-dev i2c-tools python-smbus python-pip python-dev python-pil python-daemon screen
+sudo apt-get install -y libjpeg-dev i2c-tools python3-smbus python3-pip python-dev python-pil python-daemon screen
 sudo apt-get install -y libsdl-dev
 sudo apt-get install -y git
 # dump1090-fa deps
