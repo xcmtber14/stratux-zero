@@ -33,7 +33,8 @@ sudo apt-get install -y libjpeg-dev i2c-tools python3-smbus python3-pip python-d
 sudo apt-get install -y libsdl-dev
 sudo apt-get install -y git
 # dump1090-fa deps
-sudo apt-get install -y build-essential debhelper librtlsdr-dev pkg-config dh-systemd libncurses5-dev libbladerf-dev
+sudo apt-get install -y build-essential debhelper librtlsdr-dev pkg-config libncurses5-dev libbladerf-dev
+# sudo apt-get install -y dh-systemd
 # optional deps
 sudo apt-get install -y hostapd dnsmasq nginx
 git config --global http.sslVerify false
