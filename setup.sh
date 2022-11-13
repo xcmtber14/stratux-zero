@@ -82,8 +82,8 @@ cd wiringPi
 #patch < "$workdir/wiringPi_Makefile.patch" wiringPi/Makefile
 sudo ./build
 cd wiringPi
-make static
-sudo make install-static
+#make static
+#sudo make install-static
 }
 
 function build_stratux {
